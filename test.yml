@@ -1,0 +1,12 @@
+config:
+  target: 'https://pure-garden-40040.herokuapp.com'
+  phases:
+    - duration: 30
+      arrivalRate: 10
+  defaults:
+    headers:
+      x-my-service-auth: '987401838271002188298567'
+scenarios:
+  - flow:
+    - get:
+        url: "/GIS/testpoint"
