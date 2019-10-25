@@ -76,7 +76,7 @@
             https://pure-garden-40040.herokuapp.com/GIS/testpoint?x=51.2402&y=60.6085
             https://pure-garden-40040.herokuapp.com/GIS/testpoint?x=45.7910&y=59.7343
             https://pure-garden-40040.herokuapp.com/GIS/testpoint?x=39.1553&y=58.1939
-     outputs:
+# outputs:
             ["kerman"]
             ["[tehran,mantaghe3]","kerman"]
             ["[tehran,mantaghe3]"]
@@ -85,7 +85,7 @@
                 This command will create 1000 "virtual users" each of which will send 20 HTTP GET requests
 # artillery result:
 <pre>
-                All virtual users finished
+All virtual users finished
 Summary report @ 17:18:38(+0330) 2019-10-25
   Scenarios launched:  1000
   Scenarios completed: 394
