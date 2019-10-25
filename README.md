@@ -1,8 +1,8 @@
 # ie_hw1
+# add polygon works with POST request and you should set content-type header to application/json in your request
+# link to heroku : https://pure-garden-40040.herokuapp.com  
+# sample input file  
 <pre>
-***add polygon works with POST request and you should set content-type header to application/json in your request
-link to heroku : https://pure-garden-40040.herokuapp.com  
-sample input file  
 [  
   {"type":"FeatureCollection",  
    "features":[  
@@ -71,7 +71,8 @@ sample input file
     }
   ]
 }]
-test inputs:  
+</pre>
+# test inputs:  
             https://pure-garden-40040.herokuapp.com/GIS/testpoint?x=51.2402&y=60.6085
             https://pure-garden-40040.herokuapp.com/GIS/testpoint?x=45.7910&y=59.7343
             https://pure-garden-40040.herokuapp.com/GIS/testpoint?x=39.1553&y=58.1939
@@ -79,10 +80,11 @@ test inputs:
             ["kerman"]
             ["[tehran,mantaghe3]","kerman"]
             ["[tehran,mantaghe3]"]
-artillery command:
+# artillery command:
                 artillery quick --count 1000 -n 20 https://pure-garden-40040.herokuapp.com/GIS/testpoint
                 This command will create 1000 "virtual users" each of which will send 20 HTTP GET requests
-artillery result:
+# artillery result:
+<pre>
                 All virtual users finished
 Summary report @ 17:18:38(+0330) 2019-10-25
   Scenarios launched:  1000
@@ -102,4 +104,5 @@ Summary report @ 17:18:38(+0330) 2019-10-25
   Errors:
     ETIMEDOUT: 576
     ECONNRESET: 30
+    </pre>
             
