@@ -1,5 +1,5 @@
 # ie_hw1
-# add polygon works with POST request and you should set content-type header to application/json in your request
+# add polygon works with POST request and you should set content-type header to application/json in your request and copy json file content to the body
 # link to heroku : https://pure-garden-40040.herokuapp.com  
 # sample input file  
 <pre>
